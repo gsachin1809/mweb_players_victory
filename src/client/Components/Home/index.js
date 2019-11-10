@@ -5,7 +5,7 @@ import { Header } from '../Header/index'
 import { Banner } from '../Banner/index'
 import { Merchandise } from '../Merchandise/index'
 import { Footer } from '../Footer/index'
-
+import { styles } from './style.js'
 
 export class HomeComponent extends PureComponent {
 
@@ -13,10 +13,13 @@ export class HomeComponent extends PureComponent {
       return (<div >
                 <Header />
                 <Banner />
-                <Merchandise />
-                <Merchandise />
-                <Merchandise />
-                <Merchandise />
+                <div style={styles.merchandiseSection}>
+                    <Merchandise />
+                    <Merchandise />
+                    <Merchandise />
+                    <Merchandise />
+                </div>
+
                 <Footer />
               </div>)
     }

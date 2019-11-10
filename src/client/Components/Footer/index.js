@@ -12,12 +12,16 @@ import {Navbar , Nav , Form ,Button , FormControl, Row, Col} from "react-bootstr
 export class Footer extends PureComponent {
 
     render() {
-      return (<div>
+      return (<div style={styles.footerSection}>
                 <Container>
                   <Row>
                     <Col>
                         <ul>
                           <li>About us</li>
+                          <li>Contact us</li>
+                          <li>Contact us</li>
+                          <li>Contact us</li>
+                          <li>Contact us</li>
                           <li>Contact us</li>
                         </ul>
                     </Col>

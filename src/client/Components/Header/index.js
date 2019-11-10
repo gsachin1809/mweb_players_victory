@@ -13,20 +13,20 @@ export class Header extends PureComponent {
 
     render() {
       return ( <Navbar bg="primary" variant="dark">
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                <Navbar.Brand href="/">Let's Play</Navbar.Brand>
                 <Row>
                   <Col>
                     <Nav className="mr-auto">
-                      <Nav.Link href="#home">Home</Nav.Link>
-                      <Nav.Link href="#features">Features</Nav.Link>
-                      <Nav.Link href="#pricing">Pricing</Nav.Link>
+                      <Nav.Link href="/">Home</Nav.Link>
+                      <Nav.Link href="/playground-details/sport">Sports</Nav.Link>
+                      <Nav.Link href="/playground-details">Clubs</Nav.Link>
                     </Nav>
                   </Col>
 
                   <Col>
                     <Form>
                       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                      <Button variant="outline-light"></Button>
+                      
                     </Form>
                   </Col>
                 </Row>

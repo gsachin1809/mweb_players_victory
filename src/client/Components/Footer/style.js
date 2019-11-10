@@ -1,4 +1,9 @@
 export const styles = {
+  footerSection:{
+    color: 'white',
+    'background-color': '#3e8036',
+     'padding-top': '40px'
+  },
   wrapper: {
     display: 'flex',
     flexDirection: 'column',

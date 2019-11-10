@@ -5,6 +5,7 @@ import React from 'react'
 import Home from '../Containers/Home/Home'
 import PlaygroundDetails from '../Containers/PlaygroundDetails/index'
 import SportsDetails from '../Containers/SportsDetails/index'
+import Thankyou from '../Containers/ThankyouPage/index'
 import Error from '../Containers/Error/index'
 
 // Routes
@@ -22,6 +23,11 @@ const routes = [
     {
         path: '/playground-details/sport',
         component: SportsDetails,
+        exact: true
+    },
+    {
+        path: '/playground-details/sport/confirm',
+        component: Thankyou,
         exact: true
     },
     {
